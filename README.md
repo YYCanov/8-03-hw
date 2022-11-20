@@ -49,7 +49,7 @@
 <ins>*`Ответ:`*<ins>
  
 
-```yaml
+```
 stages:
   - test
   - build
@@ -65,8 +65,10 @@ build:
   image: docker:latest
   script:
    - docker build .
-
 ```
+
+<img src = "img/jobs.png" width = 100%>
+
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
